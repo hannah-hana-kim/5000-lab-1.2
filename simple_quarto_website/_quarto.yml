@@ -1,0 +1,33 @@
+project:
+  type: website
+  resources: 
+    - "*.mp4"
+
+website:
+  title: "simple_quarto_website"
+  favicon: "images/georgetown_logo.png"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.ipynb
+        text: About
+      - text: "DSAN"
+        menu: 
+          - href: https://jfh.georgetown.domains/dsan5000/
+            text: DSAN-5000
+          - href: https://jjacobs.me/dsan5100-03/
+            text: DSAN-5100
+          - href: https://georgetown.instructure.com/courses/172737
+            text: DSAN-6300
+      - href: ./slides/slides.ipynb
+        text: Slides
+
+format:
+  html:
+    theme: flatly
+    toc: true
+    mermaid:
+      theme: neutral 
+
+bibliography: references.bib

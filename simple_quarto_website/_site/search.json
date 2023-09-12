@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Component 5",
+    "section": "",
+    "text": "Georgetown University\n\n\n\n\n\nGeorgetown University is one of the world’s leading academic and research institutions, offering a unique educational experience that prepares the next generation of global citizens to lead and make a difference in the world. We are a vibrant community of exceptional students, faculty, alumni and professionals dedicated to real-world applications of our research, scholarship, faith and service.\n\n\n\n\n\n\n\nEstablished in 1789, Georgetown is the nation’s oldest Catholic and Jesuit university. Drawing upon the 450-year-old legacy of Jesuit education, we provide students with a world-class learning experience focused on educating the whole person through exposure to different faiths, cultures and beliefs.\nStudents are challenged to engage in the world and become people in the service of others, especially the most vulnerable and disadvantaged members of the community. These values are at the core of Georgetown’s identity, bringing together members of the community across diverse backgrounds.\n\n\n\n\n\nOur visual identity draws meaning from the past, but is also highly relevant for 21st century communications. It is intended to be responsive to the varied needs of those engaged in ongoing university dialogues. To that end, our guidelines are an important tool for those Georgetown University community members engaged in university communications—from designers and programmers to faculty and administrators. The guidelines permit and encourage communications professionals to support their respective school, department, office and/or center’s identity in a manner that is consistent with, and supportive of the university’s overarching positioning.\n\n\n\nAdobe Caslon\n\n\n\n\n\nPantone 282 C:100 M:68 Y:0 K:54 R:4 G:30 B:66 Hex: #041E42\n\n\n\nCool Gray 10 C:62 M:53 Y:47 K:19 R:99 G:102 B:106 Hex: #63666A\n\n\n\n\n\nAcceptance rate from 2017 to 2023.\n\n\n\n\n\n\n\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Fixing random state for reproducibility\nnp.random.seed(19680801)\n\n\nN = 50\nx = np.random.rand(N)\ny = np.random.rand(N)\ncolors = np.random.rand(N)\narea = (30 * np.random.rand(N))**2  # 0 to 15 point radii\n\nplt.scatter(x, y, s=area, c=colors, alpha=0.5)\nplt.show()"
+  },
+  {
+    "objectID": "about.html#core-values",
+    "href": "about.html#core-values",
+    "title": "Component 5",
+    "section": "",
+    "text": "Georgetown University\n\n\n\n\n\nGeorgetown University is one of the world’s leading academic and research institutions, offering a unique educational experience that prepares the next generation of global citizens to lead and make a difference in the world. We are a vibrant community of exceptional students, faculty, alumni and professionals dedicated to real-world applications of our research, scholarship, faith and service."
+  },
+  {
+    "objectID": "about.html#legacy",
+    "href": "about.html#legacy",
+    "title": "Component 5",
+    "section": "",
+    "text": "Established in 1789, Georgetown is the nation’s oldest Catholic and Jesuit university. Drawing upon the 450-year-old legacy of Jesuit education, we provide students with a world-class learning experience focused on educating the whole person through exposure to different faiths, cultures and beliefs.\nStudents are challenged to engage in the world and become people in the service of others, especially the most vulnerable and disadvantaged members of the community. These values are at the core of Georgetown’s identity, bringing together members of the community across diverse backgrounds."
+  },
+  {
+    "objectID": "about.html#visual-identity-of-georgetown",
+    "href": "about.html#visual-identity-of-georgetown",
+    "title": "Component 5",
+    "section": "",
+    "text": "Our visual identity draws meaning from the past, but is also highly relevant for 21st century communications. It is intended to be responsive to the varied needs of those engaged in ongoing university dialogues. To that end, our guidelines are an important tool for those Georgetown University community members engaged in university communications—from designers and programmers to faculty and administrators. The guidelines permit and encourage communications professionals to support their respective school, department, office and/or center’s identity in a manner that is consistent with, and supportive of the university’s overarching positioning.\n\n\n\nAdobe Caslon\n\n\n\n\n\nPantone 282 C:100 M:68 Y:0 K:54 R:4 G:30 B:66 Hex: #041E42\n\n\n\nCool Gray 10 C:62 M:53 Y:47 K:19 R:99 G:102 B:106 Hex: #63666A"
+  },
+  {
+    "objectID": "about.html#georgetown-university-acceptance-rate",
+    "href": "about.html#georgetown-university-acceptance-rate",
+    "title": "Component 5",
+    "section": "",
+    "text": "Acceptance rate from 2017 to 2023.\n\n\n\n\n\n\n\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Fixing random state for reproducibility\nnp.random.seed(19680801)\n\n\nN = 50\nx = np.random.rand(N)\ny = np.random.rand(N)\ncolors = np.random.rand(N)\narea = (30 * np.random.rand(N))**2  # 0 to 15 point radii\n\nplt.scatter(x, y, s=area, c=colors, alpha=0.5)\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Demo Review\nCharacterization of human fetal spinal cord stem cell line(Guo et al. 2010)\nApplication of microphysiological systems to enhance safety assessment in drug discovery(Ewart et al. 2018)\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nIn the process of establishing the single Gaussian model, the brightness value of each pixel in the background image is consistent with the Gaussian distribution, so the single Gaussian model can be established for each pixel value in the detection area. It is assumed that there are M frames images within time t, the brightness of each pixel in the region obeys the Gaussian distribution of mean β and standard deviation ε, and the Gaussian distribution of each pixel is independent of each other. The brightness value of each pixel in a continuous video image is regarded as a random process changing with time, which is sharpening processing images, the sequence of pixel (X,Y) brightness value is expressed as: \\[{X_1, X_2, ..., X_M} = {J(X, Y, j),|1 \\leq j \\leq M}\\]\nwhere, J(X, Y, j) represents the continuous image sequence in the remote teaching video after sharpening processing, and represents the brightness value of the pixe (X, Y) l in the jth frame.\nThe set of pixel (X,Y) satisfies the Gaussian distribution within M frames: \\[ Q(X_j) = \\frac{1}{\\sqrt{2\\pi\\epsilon_j}}e^{-f+\\beta/2\\epsilon_j} \\]\nThe table below shows the accuracy test results of face feature extraction by the proposed algorithm, \\(X_1\\) is the length of the face. As shown in the table, the matching degree of the face features of the remote teaching video image detected by the proposed algorithm is 0.98, which has a high matching degree, and the extraction effect is ideal.\nCheck the website for more mathematical symbols.\nLaTex Mathematical Symbols\nThe following sections describe the ways to in which you can control the color theme of Mermaid diagrams:\nExample of a Mermaid Diagram with Quarto’s bult-in themes: Neutral\nflowchart LR\n    A[qmd] --&gt; B(Jupyter)\n    A --&gt; B(knitr)\n    B --&gt; C[md]\n    C --&gt; D(pandoc)\n    D --&gt; E[pdf]\n    D --&gt; E[html]\n    D --&gt; E[docx]\nAlso, check out how to make pie charts using Mermaid Diagram Tools!\nMy Cats"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nXue S, Ren HP (2022) Single sample per person face recognition algorithm based on the robust prototype dictionary and robust variation dictionary construction. IET Image Proc 16(3):742–754↩︎\nLiu S, Huang S, Fu W, Lin JCW (2022) A descriptive human visual cognitive strategy using graph neural network for facial expression recognition. Int J Mach Learn Cybernet.↩︎\nNeha S, Khular SE, Amita K (2021) Hybrid meta-heuristic algorithm based Deep Neural Network for Face Recognition. J Comput Sci 30(11):14–15↩︎\nhttps://www.youtube.com/watch?v=V3xi-7yvXSY↩︎\nAn introduction of myself↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#a-review-of-a-cat-behavior-paper",
+    "href": "slides/slides.html#a-review-of-a-cat-behavior-paper",
+    "title": "Component 6",
+    "section": "A Review of a ‘Cat Behavior’ Paper",
+    "text": "A Review of a ‘Cat Behavior’ Paper\n\n\nA review of cat behavior in relation to disease risk and management options (Lepczyk, Lohr, and Duffy 2015)\n\n\nDomestic cats (Felis catus) are a common household pet and also a notorious invasive species around the world. Because cat numbers have been increasing in many locations it is critical to work on management solutions that help to reduce threats posed by cats. With regard to cat behavior, one of the threats both to cats themselves and the species that they interact with is disease transmission. As part of a broader overview on applying cat behavior to management the focus of this review is to consider different types of cat behaviors and highlight how they relate to disease as a means to help inform management. Specifically, we focus on cat movement, foraging, and cat–human interactions as broad classes of cat behavior that can lead to acquisition and transmission of diseases. In addition, we review the diseases that are commonly harbored by cats, are of growing human health concern, and for which we have reasonable information. Finally, we review the main forms of cat management in order to provide a set of recommendations for use in addressing cat diseases."
+  },
+  {
+    "objectID": "slides/slides.html#images",
+    "href": "slides/slides.html#images",
+    "title": "Component 6",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\nPepper\n\n\n\n\n\n\n\n\n\nButton\n\n\n\n\n\n\n\n\n\nCabbage"
+  },
+  {
+    "objectID": "slides/slides.html#python-code",
+    "href": "slides/slides.html#python-code",
+    "title": "Component 6",
+    "section": "Python code",
+    "text": "Python code\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nnames = ['group_a', 'group_b', 'group_c']\nvalues = [1, 10, 100]\n\nplt.figure(figsize=(9, 3))\n\nplt.subplot(131)\nplt.bar(names, values)\nplt.subplot(132)\nplt.scatter(names, values)\nplt.subplot(133)\nplt.plot(names, values)\nplt.suptitle('Categorical Plotting')\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#section-5",
+    "href": "slides/slides.html#section-5",
+    "title": "Component 6",
+    "section": "",
+    "text": "Lepczyk, Christopher A, Cheryl A Lohr, and David C Duffy. 2015. “A Review of Cat Behavior in Relation to Disease Risk and Management Options.” Applied Animal Behaviour Science 173: 29–39."
+  }
+]
